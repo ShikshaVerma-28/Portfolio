@@ -1,0 +1,215 @@
+@import URL('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(4, 4, 52);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 2.8rem;
+    font-size: 1.05rem;
+    font-weight: bolder;
+    width: 100%;
+    background-color: rgb(15, 36, 82);
+}
+
+.header .right {
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+
+.left ul li {
+    display: inline;
+    text-decoration: none;
+}
+
+.left li a {
+    text-decoration: none;
+    color: white;
+    margin: 12px;
+}
+
+.left li a:hover {
+    font-size: 1.07rem;
+    color: rgb(176, 176, 244);
+}
+
+.section-first {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    color: yellow;
+}
+
+.section-left {
+    /* background-color: red; */
+    width: 35%;
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+
+.purple {
+    color: rgb(119, 119, 244);
+}
+
+.section-right {
+    /* background-color: red; */
+    width: 49%;
+}
+
+.section-right img {
+    /* margin:10px 0; */
+    height: 30rem;
+    width: 43rem;
+}
+
+hr {
+    margin: 0 6rem;
+    height: 2px;
+    background-color: aliceblue;
+}
+
+.section-second {
+    color: white;
+    margin: 40px 150px;
+    height: 80vh;
+}
+
+.text-gray {
+    /* margin-top: 13px; */
+    color: rgb(211, 198, 198);
+}
+
+.content {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+
+
+.second {
+    margin-top: 30px;
+    height: 2px;
+    width: 100%;
+    /* line-height: 70px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(190, 220, 248);
+}
+
+#vertical {
+    display: flex;
+    /* padding-top:  -50px; */
+}
+
+.vertical {
+    margin: 0 97px;
+    height: 80px;
+    width: 2px;
+    background-color: rgb(190, 220, 248);
+    /* display:flex ; */
+}
+
+.first {
+    width: 20%;
+}
+
+.a img {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: -110px -14px;
+}
+
+.b img {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin: -107px -12px;
+}
+
+.c img {
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    margin: -107px -13px}
+
+.d img {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    margin: -105px -11px;
+}
+
+.e img {
+    position: absolute;
+    height: 31px;
+    width: 40px;
+    margin: -107px -20px;
+}
+
+.f img {
+    position: absolute;
+    height: 23px;
+    width: 37px;
+    margin: -104px -17px;
+}
+
+
+.ver-heading {
+    margin-top: 78px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ver-decs {
+    width: 170px;
+    margin: 4px 0;
+    font-size: 12px;
+}
+
+.container{
+    position: relative;
+    /* margin: 20px 0; */
+    padding: 15px 0;
+    display: flex;
+    /* height: 20vh; */
+    background-color: rgb(14, 14, 38);
+    justify-content: space-around;
+    color: aliceblue;
+}
+.moreinfo{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.info {
+    /* justify-content: space-between; */
+    display: flex;
+}
+.info ul li{
+    /* color: white; */
+list-style: none;
+}
+
+.footer{
+    margin: 4px;
+text-align: center;
+    color: white;
+}
